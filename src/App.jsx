@@ -1,13 +1,15 @@
 export default function App() {
 
-  const nome = "João Santos";
-  
+  const nome = "joão santos";
+  const nome1 = "de casa";
+
   return(
     <div>
-        <h1>Hello World</h1>
+        <h1>Carta para Macelino</h1>
         <p>Desenvolvido por: {nome}</p>
-    </div>  
-  );
+  
 
-
+          <p>eu fiz o dever {nome1}</p>
+      </div>  
+    );
 }
