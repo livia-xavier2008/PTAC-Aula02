@@ -1,14 +1,14 @@
-import header from "./Componentes/header";
+import Header from "./Components/Header.jsx";
+import Footer from "./Components/Footer.jsx";
+
 export default function App() {
-
-
-  return(
+  return (
     <main>
-      <header/>
-      <header/>
-      <header/>
-      <header/>
-    </main> 
-    );
+      <Header />
+      <Header />
+      <Header />
+      <Header />
+      <Footer />
+    </main>
+  );
 }
-
