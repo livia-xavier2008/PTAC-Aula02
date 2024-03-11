@@ -1,5 +1,13 @@
 header{
-height: 100px;
-background-color: rgb(0, 136, 255);
+height: 40px;
+background-color: rgb(115, 3, 160);
 border-bottom: 2px ;
+}
+footer{
+position: absolute;
+bottom: 0;
+ height: 48px;
+background-color: rgb(104, 3, 145);
+width: 100% ;
+
 }

@@ -1,9 +1,7 @@
 export default function Footer (){ 
     return (
         <footer>
-            <li>Feito por Lívia Xavier</li>
-            <li>EXERCICIO</li>
-            <li>1.Quem descobriu o Brasil ?</li>
+            <h2>@xavierlivi4</h2>
         </footer>
     );
 }
