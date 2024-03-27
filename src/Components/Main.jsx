@@ -2,7 +2,21 @@ import { useState } from "react";
 
 export default function Main() {
     const [nome, setNome] = useState("");
-    const [telefone, setTelefone] = useState("");
+    const [telefone, setTelefone] = useState(0);
+    const [listaContatos, setListaContatos] = useState ([]);
+    const registrar = (event) => {
+        event.preventDefault();
+       alert("React.js");
+
+       setListaContatos([...listaContatos,
+        { 
+           nomeSalvo: nome,
+           telefoneSalvo: telefone,
+         }
+      ]);
+    };
+
+    console.table(listaContatos);
 
     return (
         <main>
